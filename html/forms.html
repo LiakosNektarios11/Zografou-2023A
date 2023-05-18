@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Φόρμα</title>
+</head>
+<body>
+    <form method="post">
+        <label for ="onoma"> Όνομα*: </label>
+        <input type="text"  required autofocus placeholder="Νίκος" name ="name" id ="onoma">
+        <label for ="epwnumo"> Επώνυμο*: </label>
+        <input type="text" required placeholder="Ιωάννου" name ="last_name" id ="epwnumo">
+        <label for ="hlikia"> Ηλικία :  </label>
+        <input type="number" min="18" value="30" name="age"  id="hlikia">
+        <label for ="hmeromhnia"> Ημερομηνία γέννησης :</label>
+        <input type="date" name="date_1" value="1980-01-01" id="hmeromhnia"> 
+    <fieldset> 
+        <legend> Φύλο : </legend>
+        <label for ="male"> Άνδρας</label>
+        <input type="radio" value="Άνδρας" checked name="gender" id="male">
+        <label for ="female"> Γυναίκα</label>
+        <input type="radio" value="Γυναίκα" name="gender" id ="female">
+    </fieldset>
+
+        <label for ="polh"> Πόλη :</label>
+        <select id="polh" name="city">
+            <option value="athina">Αθήνα</option>
+            <option value="larisa">Λάρισα</option>
+            <option value=">thessalonikh">Θεσσαλονίκη</option>
+            <option value="krhth">Κρήτη</option>
+        </select>
+
+    <fieldset>
+        <legend> Ενδιαφέροντα :</legend>
+        <label for ="taksidia"> Ταξίδια</label>
+        <input type ="checkbox" value="Ταξίδια" name ="trips" id="taksidia">
+        <label for ="fotografies"> Φωτογραφίες</label>
+        <input type ="checkbox" value="Φωτογραφίες" name ="photos" id="fotografies">
+        <label for ="mousikh">  Μουσική</label>
+        <input type ="checkbox" value="Μουσική" name ="music" id="mousikh">
+    </fieldset>
+        <input type="submit" value="Υποβολή">
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+     *{font-family: Arial, Helvetica, sans-serif;}
+     
+        .input-btn{
+            display: block;
+            border-radius: 6px;
+            font-size: 17px;
+            padding: 14px 16px;
+            width: 330px;
+            background: #FFFFFF;
+            border: 1px solid #dddfe2;
+            color: #1d2129;
+            height: 22px;
+            line-height: 16px;
+            vertical-align: middle;
+            margin-bottom: 12px;
+            margin-left: 16px;
+
+
+
+        }
+        .input-btn:hover{cursor: text;}
+
+
+
+        .submit-btn{
+            display: block;
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 48px;
+            padding: 0 140px;
+            color:#fff;
+            cursor: pointer;
+            font-weight: 700;
+            margin-left: 16px;
+        }
+        .submit-btn:hover{background-color: #365899;}
+
+        a{
+            display: block;
+            color: #1877f2;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration:none;
+            text-align: center;
+            margin-top: 12px;
+            margin-bottom: 12px;
+
+        }
+        a:hover{text-decoration: underline;}
+
+        .button{
+            display: block;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            background-color: #42b72a;
+            color: #fff;
+            font-weight: 700;
+            transition:background-color 0.2s;
+            padding:  0px 60px;
+            margin-left: 16px;
+                }
+            .button:hover{
+                background-color: #36a420;
+                border-color: #36a420;
+                cursor: pointer;  
+                          }
+                
+
+        .container{
+            width: 400px;
+            margin-left: 200px;
+            
+            box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            box-sizing: border-box;
+            padding:20px 0 28px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form method="post">
+       <input  class="input-btn" type="text" required autofocus placeholder="Email ή αριθμός τηλεφώνου" >
+       <input class="input-btn" type="text" required placeholder="Κωδικός πρόσβασης">
+       <input class="submit-btn" type="submit" value="Σύνδεση">
+       <a href=" ">Ξεχάσατε τον κωδικό πρόσβασης;</a>
+       <input class="button" type="button"  value="Δημιουργία νέου λογαριασμού">
+
+
+   </form>
+    </div>
+</body>
+</html>

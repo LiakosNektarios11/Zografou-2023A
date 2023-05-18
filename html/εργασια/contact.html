@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+
+
+	<style>
+        *{font-family: Arial, Helvetica, sans-serif;}
+         button{background-color: blue;
+               color:#fff;
+               border-radius: 6px;
+               }
+         button:hover{background-color: blueviolet;
+                      cursor:pointer;}        
+
+
+
+
+
+
+
+    </style>
+    
+</head>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <button><li><a href="index.html">Home</a></li></button>
+                <button><li><a href="contact.html">Contact</a></li></button>
+                <button><li><a href="multimedia.html">Multimedia</a></li></button>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1>Contact form</h1>
+    <p>Here you can fill out your personal information as well as a few information about your space. Our team will receive the form and get in contact with you in 2 buisess days.</p>
+
+    <form action="submit" method="POST">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="message">Your message:</label><br>
+		<textarea id="message" name="message" rows="5" cols="30" required></textarea><br>
+
+		<label for="age">Age:</label><br>
+		<input type="number" id="age" name="age" min="18" required><br>
+
+		<label for="gender">Gender:</label><br>
+		<select id="gender" name="gender" required>
+			<option value="">Select Gender</option>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select><br><br>
+
+		<input type="submit" value="Send Message">
+	</form>
+</main>
